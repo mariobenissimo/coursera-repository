@@ -1,0 +1,39 @@
+body{
+  background-color: #F4F4EC;
+  color: #04040C;
+}
+.box{
+  background-color: #D4E9F3;
+}
+.box-title{
+  padding-top: 15px;
+}
+.title{
+  color: #8C4D2A;
+  font-size: 22px;
+}
+h2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+a:link , a:visited , a:hover , a:active{
+  color: #B56159;
+  background-color: transparent;
+  text-decoration: none;
+}
+p{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+}
+.lol{
+  display: none;
+}
+.nav-item{
+  text-align: center;
+}
+@media (max-width: 575px) {
+  .lol{
+    display: flex;
+  }
+}
